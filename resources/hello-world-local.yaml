@@ -14,7 +14,8 @@ metadata:
   namespace: logistics
 spec:
   ports:
-  - port: 8080
+  - nodePort: 32164
+    port: 8080
     protocol: TCP
     name: web
     targetPort: 8080
