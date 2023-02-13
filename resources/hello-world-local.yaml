@@ -61,7 +61,7 @@ spec:
             port: 8080
         env:
           - name: message
-            value: "Hello from dev!"
+            value: "Hello Everyone"
         resources:
           limits:
             cpu: "50m"
