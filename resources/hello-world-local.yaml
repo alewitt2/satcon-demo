@@ -20,7 +20,7 @@ spec:
     targetPort: 8080
   selector:
     run: logistics-app
-  type: ClusterIP
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
